@@ -1477,20 +1477,16 @@ public:
 
         void Initialize(int _mapNumber)
         {
-            std::ofstream s_out;
-            s_out.open("../test.log", std::ios::out);
             mapNumber = _mapNumber;
             std::ifstream s_in;
             s_in.open(filesPath + std::to_string(mapNumber) + mapName, std::ios::in);
             if (!s_in.is_open())
             {
-                s_out << "Map file wasn't opened.\n";
+                std::cout << "Map file wasn't opened.\n";
             }
             json j;
             s_in >> j;
-            s_out << filesPath + std::to_string(mapNumber) + mapName << "\n" << j;
             s_in.close();
-            s_out.close();
 
             std::list<Cell> cells;
             for (auto& element: j)
