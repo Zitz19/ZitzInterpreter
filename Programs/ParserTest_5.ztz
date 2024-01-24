@@ -1,0 +1,43 @@
+big main() {
+	tiny tvar1 tvar2 tvar3 << 0,
+	print tvar1,
+	print tvar2,
+	print tvar3,
+	
+	1 + 1 >> tvar1,
+	tvar2 << 1 + 1,
+	tvar3 << -1,
+	
+	print tvar1,
+	print tvar2,
+	print tvar3,
+	
+	print tvar1 * tvar2 + tvar3,
+	
+	small svar1 svar2 svar3 << 0,
+	print svar1,
+	print svar2,
+	print svar3,
+	
+	1 + 1 >> svar1,
+	svar2 << 1 + 1,
+	svar3 << -1,
+	
+	print svar1,
+	print svar2,
+	print svar3,
+	
+	print svar1 * svar2 + svar3,
+	
+	svar1 << 1,
+	svar2 << 2,
+	svar3 << 3,
+	
+	svar1 << svar2 >> svar3,
+	
+	print svar1,
+	print svar2,
+	print svar3,
+	
+	return 0.
+}

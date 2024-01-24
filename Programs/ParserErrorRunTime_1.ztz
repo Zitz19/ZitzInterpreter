@@ -1,0 +1,13 @@
+big main() {
+	big bvar << func(1 2 3),
+	print gvar,
+	1 << 1,
+	map[0 0] << 3,
+	field tiny tiny tvar << 0,
+	print tvar[2 2],
+	return 0.
+}
+	
+big func(small svar) {
+	return svar.
+}

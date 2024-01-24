@@ -1,0 +1,26 @@
+big main() {
+	func(A),
+	small svar << 6,
+	normal nvar << 0,
+	until svar {
+		svar << svar -1,
+		nvar << svar,
+		until nvar > 4 {
+			print nvar,
+			nvar << nvar -1.
+		},
+		check svar < 4 {
+			print -svar.
+		}.
+	}.
+}
+	
+tiny func(small svar) {
+	small index << 0,
+	until index < svar {
+		index << index + 1,
+		check index / 5 >= 1 {
+			print index.
+		}.
+	}.
+}

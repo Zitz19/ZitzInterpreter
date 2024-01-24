@@ -1,0 +1,17 @@
+big main() {
+	normal nvar << 9,	
+	big fact << factorial(nvar),	
+	print fact,
+	return 0.
+}
+	
+big factorial(normal nvar) {
+	big result << 1,
+	normal multiplyer << 1,
+	until nvar {
+		result << result * multiplyer,
+		multiplyer << multiplyer + 1,
+		nvar << nvar - 1.
+	},
+	return result.
+}

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/ZitzInterpreter.dir/ZitzParser.cpp.o CMakeFiles/ZitzInterpreter.dir/ZitzLexer.cpp.o -o ZitzInterpreter  -Wl,-rpath,/usr/local/lib /usr/local/lib/libfl.so 

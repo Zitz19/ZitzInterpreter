@@ -1,0 +1,41 @@
+big main() {
+	print 1<1,
+	print 1<0,
+	print 0<1,
+	
+	print 1>1,
+	print 1>0,
+	print 0>1,
+	
+	print 1<=1,
+	print 1<=0,
+	print 0<=1,
+	
+	print 1>=1,
+	print 1>=0,
+	print 0>=1,
+	
+	print 1=1,
+	print 1=0,
+	print 0=1,
+	
+	print 1<>1,
+	print 1<>0,
+	print 0<>1,
+	
+	print +1,
+	print -1,
+	
+	print +0,
+	print -0,
+	
+	print 1*3>2,
+	print 1*3<2,
+	
+	print 1+1<1*3,
+	print 1+1>1*3,
+	
+	print 1+1>-1*3,
+	
+	return 0.
+}

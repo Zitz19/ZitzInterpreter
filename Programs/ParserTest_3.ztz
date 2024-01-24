@@ -1,0 +1,27 @@
+big main() {
+	print sum(),
+	print sum(2 3),
+	print sum(4),
+	print sum((2+1) 3),
+	print sum(sum() 3),
+	print sum(sum() sum()),
+	print sum(sum((A+2) 8) 3),
+	print sum(sum((A+2) 8) sum()),
+	print sum(sum((A+2) 8) sum(10<1)),
+	print sum(sum((A+2) 8) sum((E+1) 5)),
+	
+	big svar1 svar2 << 1,
+	print sum(svar1 sum(svar1 svar2)),
+	print sum(sum(svar1 svar2) sum(svar1 svar2)),
+	
+	print sum(sub(9 8) sum(8 1)),
+	return 0.
+}
+
+big sum(big bvar1, big bvar2) {
+	return bvar1 + bvar2.
+}
+
+big sub(big bvar1, big bvar2) {
+	return bvar1 - bvar2.
+}

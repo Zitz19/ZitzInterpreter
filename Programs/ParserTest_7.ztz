@@ -1,0 +1,37 @@
+big main() {
+	big bvar << AAAAA,
+	print bvar,
+	big sbvar << -(-AAAAA),
+	print sbvar,
+	bvar << -1,
+	sbvar << -1,
+	print bvar,
+	print sbvar,
+	
+	normal nvar << AAAAA,
+	print nvar,
+	normal snvar << -(-AAAAA),
+	print snvar,
+	nvar << -1,
+	snvar << -1,
+	print nvar,
+	print snvar,
+
+	small svar << AAAAA,
+	print svar,
+	small ssvar << -(-AAAAA),
+	print ssvar,
+	svar << -1,
+	ssvar << -1,
+	print svar,
+	print ssvar,
+	
+	tiny tvar << AAAAA,
+	print tvar,
+	tiny stvar << -(-AAAAA),
+	print stvar,
+	tvar << -1,
+	stvar << -1,
+	print tvar,
+	print stvar.
+}
